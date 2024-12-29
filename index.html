@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Belajar Matematika Interaktif</title>
+</head>
+<body>
+    <header>
+        <h1>Belajar Matematika Interaktif</h1>
+        <nav>
+            <ul>
+                <li><a href="#kursus">Kursus</a></li>
+                <li><a href="#latihan">Latihan</a></li>
+                <li><a href="#forum">Forum</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="kursus">
+            <h2>Kursus Matematika</h2>
+            <p>Pilih topik yang ingin Anda pelajari:</p>
+            <button onclick="startQuiz()">Mulai Kuis</button>
+        </section>
+
+        <section id="latihan">
+            <h2>Latihan Matematika</h2>
+            <div id="exercise"></div>
+            <button onclick="checkAnswer()">Cek Jawaban</button>
+        </section>
+
+        <section id="forum">
+            <h2>Forum Diskusi</h2>
+            <p>Diskusikan pertanyaan dan berbagi tips di sini!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Belajar Matematika</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
